@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5c677d;
+    color: #333;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light Grayish Blue */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #33415c; /* Dark Slate Blue */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea,
+input[type="date"],
+button {
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #5c677d; /* Pewter Blue */
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0466c8; /* Blue Munsell */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0353a4; /* Yale Blue */
+}
+
+.task {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 4px solid #5c677d; /* Green */
+}
+
+.task h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.task p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.task button {
+    background-color: #5c677d; /* Cinnabar */
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.task button:hover {
+    background-color: #33415c; /* Fire Engine Red */
+} 
